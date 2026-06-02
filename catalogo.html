@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Eco.Green</title>
+    <link rel="stylesheet" href="css/catalogo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>Eco.Green</h2>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="top-bar">
+        <h1>Catálogo de Productos</h1>
+        <input type="text" class="buscador" id="buscador" placeholder="Buscar productos...">
+    </section>
+
+    <section class="catalogo-container">
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#todos">Todos</a></li>
+                <li><a href="#hogar">Hogar</a></li>
+                <li><a href="#plantas">Plantas</a></li>
+                <li><a href="#cuidado">Cuidado Personal</a></li>
+                <li><a href="#alimentos">Alimentos</a></li>
+            </ul>
+        </aside>
+
+        <div class="productos">
+            <!-- SECCIÓN TODOS -->
+            <div id="todos" class="seccion-categoria">
+                <div class="grid-productos">
+                    <!-- PLANTAS (5) -->
+                    <div class="card plantas">
+                        <img src="img/cactus.jpeg" alt="cactus">
+                        <div class="card-content">
+                            <h3>Cactus</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/lavanda.jpeg" alt="lavanda">
+                        <div class="card-content">
+                            <h3>Lavanda</h3>
+                            <p class="precio">$25.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/aloe vera.jpeg" alt="aloe vera">
+                        <div class="card-content">
+                            <h3>Aloe vera</h3>
+                            <p class="precio">$17.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/suculenta.jpg" alt="suculentas">
+                        <div class="card-content">
+                            <h3>Suculenta</h3>
+                            <p class="precio">$40.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/espatifilo.jpg" alt="espatifilo">
+                        <div class="card-content">
+                            <h3>Espatifilo</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HOGAR (5) -->
+                    <div class="card hogar">
+                        <img src="img/palillos chinos.jpg" alt="Palillos chinos">
+                        <div class="card-content">
+                            <h3>Palillos chinos de metal</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/bolso de tela.jpg" alt="Bolso de tela">
+                        <div class="card-content">
+                            <h3>Bolso grande de tela</h3>
+                            <p class="precio">$45.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/bolsas de silicon.jpg" alt="Bolsas de silicon">
+                        <div class="card-content">
+                            <h3>Bolsas de silicon reutilizables x5</h3>
+                            <p class="precio">$20.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/termo termico.jpg" alt="Termos termicos">
+                        <div class="card-content">
+                            <h3>Termos termicos</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/esponja eco.jpg" alt="Esponja">
+                        <div class="card-content">
+                            <h3>Esponja ecologica</h3>
+                            <p class="precio">$27.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CUIDADO PERSONAL (5) -->
+                    <div class="card cuidado">
+                        <img src="img/cepillo de dientes.jpg" alt="Cepillo bambú">
+                        <div class="card-content">
+                            <h3>Cepillo de dientes de bambú</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/shampoo eco.jpg" alt="Eco Shampoo">
+                        <div class="card-content">
+                            <h3>Eco Shampoo</h3>
+                            <p class="precio">$40.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/peine de bambu.jpg" alt="Peine bambú">
+                        <div class="card-content">
+                            <h3>Peine de bambú</h3>
+                            <p class="precio">$20.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/toallas higienicas.jpeg" alt="toallas eco.">
+                        <div class="card-content">
+                            <h3>Toalla higienicas eco.</h3>
+                            <p class="precio">$12.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/copa mestrual.jpg" alt="copa mestrual">
+                        <div class="card-content">
+                            <h3>Copa mestrual</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ALIMENTOS (5) -->
+                    <div class="card alimentos">
+                        <img src="img/verduras.jpg" alt="verduras">
+                        <div class="card-content">
+                            <h3>Verduras orgánicas</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/miel.jpeg" alt="Miel orgánica">
+                        <div class="card-content">
+                            <h3>Miel Orgánica</h3>
+                            <p class="precio">$22.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/avena.jpeg" alt="Avena integral">
+                        <div class="card-content">
+                            <h3>Avena Integral</h3>
+                            <p class="precio">$25.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/aceite de oliva.jpg" alt="aceite">
+                        <div class="card-content">
+                            <h3>Aceite de oliva</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/frutas organicas.jpeg" alt="frutas organicas">
+                        <div class="card-content">
+                            <h3>Frutas orgánicas</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN HOGAR -->
+            <div id="hogar" class="seccion-categoria">
+                <div class="grid-productos">
+                    <div class="card hogar">
+                        <img src="img/palillos chinos.jpg" alt="Palillos chinos">
+                        <div class="card-content">
+                            <h3>Palillos chinos de metal</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/bolso de tela.jpg" alt="Bolso de tela">
+                        <div class="card-content">
+                            <h3>Bolso grande de tela</h3>
+                            <p class="precio">$45.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/bolsas de silicon.jpg" alt="Bolsas de silicon">
+                        <div class="card-content">
+                            <h3>Bolsas de silicon reutilizables x5</h3>
+                            <p class="precio">$20.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/termo termico.jpg" alt="Termos termicos">
+                        <div class="card-content">
+                            <h3>Termos termicos</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hogar">
+                        <img src="img/esponja eco.jpg" alt="Esponja">
+                        <div class="card-content">
+                            <h3>Esponja ecologica</h3>
+                            <p class="precio">$27.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN PLANTAS -->
+            <div id="plantas" class="seccion-categoria">
+                <div class="grid-productos">
+                    <div class="card plantas">
+                        <img src="img/cactus.jpeg" alt="cactus">
+                        <div class="card-content">
+                            <h3>Cactus</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/lavanda.jpeg" alt="lavanda">
+                        <div class="card-content">
+                            <h3>Lavanda</h3>
+                            <p class="precio">$25.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/aloe vera.jpeg" alt="aloe vera">
+                        <div class="card-content">
+                            <h3>Aloe vera</h3>
+                            <p class="precio">$17.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/suculenta.jpg" alt="suculentas">
+                        <div class="card-content">
+                            <h3>Suculenta</h3>
+                            <p class="precio">$40.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card plantas">
+                        <img src="img/espatifilo.jpg" alt="espatifilo">
+                        <div class="card-content">
+                            <h3>Espatifilo</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN CUIDADO PERSONAL -->
+            <div id="cuidado" class="seccion-categoria">
+                <div class="grid-productos">
+                    <div class="card cuidado">
+                        <img src="img/cepillo de dientes.jpg" alt="Cepillo bambú">
+                        <div class="card-content">
+                            <h3>Cepillo de dientes de bambú</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/shampoo eco.jpg" alt="Eco Shampoo">
+                        <div class="card-content">
+                            <h3>Eco Shampoo</h3>
+                            <p class="precio">$40.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/peine de bambu.jpg" alt="Peine bambú">
+                        <div class="card-content">
+                            <h3>Peine de bambú</h3>
+                            <p class="precio">$20.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/toallas higienicas.jpeg" alt="toallas eco.">
+                        <div class="card-content">
+                            <h3>Toalla higienicas eco.</h3>
+                            <p class="precio">$12.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cuidado">
+                        <img src="img/copa mestrual.jpg" alt="copa mestrual">
+                        <div class="card-content">
+                            <h3>Copa mestrual</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN ALIMENTOS -->
+            <div id="alimentos" class="seccion-categoria">
+                <div class="grid-productos">
+                    <div class="card alimentos">
+                        <img src="img/verduras.jpg" alt="verduras">
+                        <div class="card-content">
+                            <h3>Verduras orgánicas</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/miel.jpeg" alt="Miel orgánica">
+                        <div class="card-content">
+                            <h3>Miel Orgánica</h3>
+                            <p class="precio">$22.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/avena.jpeg" alt="Avena integral">
+                        <div class="card-content">
+                            <h3>Avena Integral</h3>
+                            <p class="precio">$25.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/aceite de oliva.jpg" alt="aceite">
+                        <div class="card-content">
+                            <h3>Aceite de oliva</h3>
+                            <p class="precio">$30.000</p>
+                            <p class="disponible">Disponible</p>
+                            <div class="botones">
+                                <button class="btn">Comprar</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alimentos">
+                        <img src="img/frutas organicas.jpeg" alt="frutas organicas">
+                        <div class="card-content">
+                            <h3>Frutas orgánicas</h3>
+                            <p class="precio">$50.000</p>
+                            <p class="agotado">Agotado</p>
+                            <div class="botones">
+                                <button class="btn" disabled>Agotado</button>
+                                <span class="favorito">♡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Eco.Green - Todos los derechos reservados
+    </footer>
+
+</body>
+
+</html>
