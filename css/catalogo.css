@@ -118,17 +118,11 @@ nav a:hover {
 }
 
 /* Cuando se selecciona una categoría, mostrar esa y ocultar TODOS */
-#hogar:target,
-#plantas:target,
-#cuidado:target,
-#alimentos:target {
+.seccion-categoria:target {
     display: block;
 }
 
-#hogar:target ~ #todos,
-#plantas:target ~ #todos,
-#cuidado:target ~ #todos,
-#alimentos:target ~ #todos {
+.productos:has(.seccion-categoria:not(#todos):target) #todos {
     display: none;
 }
 
