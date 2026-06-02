@@ -29,6 +29,15 @@ header {
     color: white;
     font-size: 37px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
 }
 
 nav {

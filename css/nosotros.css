@@ -23,6 +23,15 @@ header {
     color: white;
     font-size: 30px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
 }
 
 nav {
