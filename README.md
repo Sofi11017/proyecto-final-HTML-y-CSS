@@ -25,12 +25,10 @@ El desarrollo destaca por el uso de estándares web modernos, estructuración se
 
 ---
 
-## 👥 Integrantes del Equipo
+## 👥 Integrante del Equipo
 
-*   **Nombre Apellido** - [Rol/Contribución]
-*   **Nombre Apellido** - [Rol/Contribución]
+*   **Sofia Salazar Hernandez**
 
-*(Nota: Reemplaza estos nombres con los integrantes reales de tu equipo de trabajo).*
 
 ---
 
